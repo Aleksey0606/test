@@ -1,0 +1,428 @@
+@font-face {
+    font-family: 'Uni Neue';
+    src: url(../fonts/UniNeueBlack-Italic.ttf),
+    url(../fonts/UniNeueBlack.ttf),
+    url(../fonts/UniNeueBold-Italic.ttf),
+    url(../fonts/UniNeueBold.ttf),
+    url(../fonts/UniNeueBook-Italic.ttf),
+    url(../fonts/UniNeueBook.ttf),
+    url(../fonts/UniNeueHeavy-Italic.ttf),
+    url(../fonts/UniNeueHeavy.ttf),
+    url(../fonts/UniNeueLight-Italic.ttf),
+    url(../fonts/UniNeueLight.ttf),
+    url(../fonts/UniNeueRegular-Italic.ttf),
+    url(../fonts/UniNeueRegular.ttf),
+    url(../fonts/UniNeueBlack-Italic.ttf),
+    url(../fonts/UniNeueThin-Italic.ttf),
+    url(../fonts/UniNeueThin.ttf);
+}
+
+body {
+    width:100vw;
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    width: 100vw;
+    background-size: cover;
+    
+}
+
+.container{
+    font-family: 'UniNeueRegular', sans-serif;
+    width: 81.77vw;
+    margin: 0 auto;
+    padding: 0 0.78vw;
+
+}
+header{
+    margin-bottom: 2.5vw;
+}
+.header_top{
+    margin-top: 1.82vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_logo{
+   width: 9.53vw;
+   height: 3.85vw;
+   padding-left: 2vw;
+}
+
+.header_text{
+    width: 17.19vw;
+    font-size: 0.94vw;
+    font-weight: 400;
+    line-height: 1.15vw;
+    letter-spacing: 25;
+}
+
+.header_adress{
+    display: flex;
+    width: 16.02vw;
+}
+
+.header_adress > p {
+    padding-left: 1.5vw;
+    font-size: 0.94vw;
+    font-weight: 400;
+    line-height: 1.15vw;
+    letter-spacing: 25;
+    
+}
+.header_adress > p:hover{
+    color: #fe5a4f;
+    cursor: pointer;
+ 
+}
+
+u{
+    color: #fe5a4f;
+}
+
+
+.header_form-btn{
+    cursor: pointer;
+    width: 12.76vw;
+    height: 3.65vw;
+    background-color: #313d4b;
+    border-radius: 0.65vw;
+    color: #fcfcfc;
+    font-size: 0.94vw;
+    font-weight: 400;
+    line-height: 1.15vw;
+    letter-spacing: 25;
+    margin-top: 0.5vw;
+  
+}
+
+.header_form-btn:hover{
+    box-shadow: 0px 7px 24.3px 2.7px rgba(0, 0, 0, 0.268);
+}
+
+.header_phone{
+    position: relative;
+    padding-left: 1.5vw;
+    text-decoration: none;
+    color: #282728;
+    font-size: 0.94vw;
+    font-weight: 400;
+    line-height: 1.15vw;
+    letter-spacing: 25;
+  
+
+}
+.header_phone::before{
+    position: absolute;
+    content: "";
+    top: 0.16vw;
+    width: 0.8vw;
+    height: 0.8vw;
+}
+.header_phone--img::before{
+    background-image: url(../images/phone.png);
+    left: 0.5vw;
+}
+
+.header_social-item{
+   display: flex;
+   list-style: none;
+}
+
+.header_social-link{
+    position: relative;
+ 
+}
+.header_social-link::before{
+    position: absolute;
+    content: "";
+    top: 0.16vw;
+    width: 2.4vw;
+    height: 2.4vw;
+    
+}
+
+.header_social--Viber::before{
+    background-image: url(../images/Viber1.png);
+   left: -1vw;
+}
+.header_social--Telegram::before{
+    background-image: url(../images/Telegram1.png);
+    left: 2.0vw;
+   
+}
+.header_social--Whatsup::before{
+    background-image: url(../images/Whatsup1.png);
+    left: 5vw;
+   
+}
+
+.header_bottom{
+    margin-top: 3.13vw;
+
+}
+.header_menu{
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.94vw;
+    font-weight: 400;
+    line-height: 1.15vw;
+    letter-spacing: 25;
+}
+.header_menu-list{
+    list-style-type: none;
+    font-size: 0.94vw;
+    font-weight: 400;
+    line-height: 1.15vw;
+    letter-spacing: 25;
+ 
+}
+
+.header_menu-list--link{
+    text-decoration: none;
+    color: #282728;
+  
+  
+}
+
+.header_menu-list--link:hover{
+    color: #fe5a4f;
+}
+
+.container_inner{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2.7vw;
+}
+.about_left{
+    width: 46.88vw;
+}
+
+.about_text{
+    font-size: 3.13vw;
+    line-height: 3.54vw;
+    font-family: 'UniNeueThin-Italic' sans-serif;
+    width: 41.67vw;
+ 
+}
+
+.about_services{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about_services-one{
+    display: flex;
+    align-items: center;
+    
+}
+
+.about_services-one--text{
+   font-size: 1.04vw;
+   line-height: auto;
+   width: 14.58vw;
+   margin-left: 0.52vw;
+}
+
+.about_services-two, .about_services-three{
+    font-size: 1.04vw;
+    line-height: auto;
+    width: 10.42vw;
+    margin-left: 1.5vw;
+    align-items: center;
+   
+}
+#text{
+    font-family: 'Roboto', sans-serif;
+}
+.img_line1{
+    position: relative;
+    top: -2.08vw;
+}
+.img_line2{
+    position: relative;
+    top: 2.08vw;
+    right: 1.30vw;
+}
+.img_line3{
+    position: relative;
+    top: 2.08vw;
+    right: 1.30vw;
+}
+.about_coast-text{
+    font-size: 0.94vw;
+    line-height: 1.46vw;
+    width: 22.14vw;
+
+}
+
+#discount{
+    background-color: #fcfcfc;
+    border-radius: 0.52vw;
+    cursor: pointer;
+}
+
+#discount:hover{
+    background-color: #fe5a4f;
+;
+}
+
+.discount_link{
+    text-decoration: none;
+    color: black;
+}
+
+.about_coast-form--btn{
+    background-color: #fe7853;
+    cursor: pointer;
+    width: 22.14vw;
+    height: 5.47vw;
+    border-radius: 0.2vw;
+    color: #fcfcfc;
+    font-size: 0.89vw;
+    font-weight: 400;
+    line-height: 1.15vw;
+    letter-spacing: 25;
+    border: none;
+    padding: 0.78vw 2.60vw ;
+}
+
+.about_coast-text--img{
+    position: relative;
+    top: 1.15vw;
+    left: -0.52vw;
+}
+.about_right{
+    margin-top: 1.13vw;
+}
+.about_man-text{
+    font-size: 0.94vw;
+    font-weight: 400;
+    line-height: 1.15vw;
+    letter-spacing: 25;
+    width: 5.7vw;
+
+}
+
+
+.slider{
+    width: 200px;
+    position: relative;
+    margin: auto;
+    height: 200px;
+    margin-bottom: 15px;
+  
+}
+
+.slider_text{
+    font-size: 0.94vw;
+    font-weight: 400;
+    line-height: 1.15vw;
+    letter-spacing: 25;
+    width: 16.58vw;
+}
+.slider_inner{
+    padding-left: 90px;
+}
+/* Картинка мастабируется по отношению к родительскому элементу */
+.slider .item img {
+    
+    object-fit: cover;
+    width: 100%;
+    height: 150px;
+    border: none !important;
+    box-shadow: none !important;
+}
+/* Кнопки вперед и назад */
+.slider .prev {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 26px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+.slider .next{
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 26px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+.slider .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+/* При наведении на кнопки добавляем фон кнопок */
+.slider .prev:hover,
+.slider .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+/* Заголовок слайда */
+.slideText {
+    position: absolute;
+    color: #fff;
+    font-size: 35px;
+    /* Выравнивание текста по горизонтали и по вертикали*/
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    /* Тень*/
+    text-shadow: 1px 1px 1px #000, 0 0 1em #000;
+}
+/* Кружочки */
+.slider-dots {
+    text-align: center;
+}
+.slider-dots_item{
+    cursor: pointer;
+    height: 12px;
+    width: 12px;
+    margin: 0 2px;
+    background-color: #ddd;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active,
+.slider-dots_item:hover {
+    background-color: #aaa;
+}
+/* Анимация слайдов */
+.slider .item {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
